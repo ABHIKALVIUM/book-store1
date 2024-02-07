@@ -1,0 +1,75 @@
+nav{
+    height:100px;
+    display: grid;
+    place-items: center;
+    position: sticky;
+    top:0;
+    background: var(--color-bg-1);
+    z-index: 100;
+    border: -1px solid var(--color-dark-Ex);
+}
+#new-logo{
+    height: 48px;
+    width: 100%;
+}
+.navShadow{
+    box-shadow: 0 0 rem rgba(0,0,0,0.2);
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-container .logo{
+    width: 60px;
+}
+.nav-Links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-Links a{
+    color: var(--color-dark);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav-Links .active{
+    color:var(--color-primary);
+    color: tomato;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-right a{
+    color: var(--color-dark);
+    font-size: 17px;
+}
+.menu-button{
+    display: none;
+}
+.menu-btn{
+    height: 100px;
+    width: 100px;
+}
+#input-btn{
+    width: 100px;
+    margin-right: 10px;
+    font-family: righteous;
+}
+
+.register-link button {
+    background-color: tomato; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  #new-btn{
+    font-family: righteous;
+  }
+  
+  .register-link button:hover {
+    background-color: #0056b3; /* Set your desired hover background color */
+  }
