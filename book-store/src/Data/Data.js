@@ -100,29 +100,12 @@ export const navLinks =[
       { linkname: 'Authors  ', link: "*", },    
       { linkname: 'Subjects ', link: "*", },   
       { linkname: 'Advanced Search ', link: "*", },   
-    ],    
-    Myaccount: [
-      { linkname: 'Sign In', link: "*", },    
-      { linkname: 'Articles ', link: "*", },    
-      { linkname: 'View Cart', link: "*", },    
-      { linkname: 'My Wishtlist  ', link: "*", },    
-      { linkname: 'Track My Order ', link: "*", },      
-    ],  
-  
+    ],
     Help: [
       { linkname: 'Help center ', link: "*", },    
       { linkname: 'Report a problem  ', link: "*", },    
       { linkname: 'View Cart', link: "*", },    
       { linkname: 'Suggesting edits ', link: '#' },    
       { linkname: 'Contact us', link: "*", },   
-    ],  
-  
-    socials: [
-      { icon: ImFacebook, link: 'https://www.facebook.com' },
-      { icon: FiInstagram, link: 'https://www.twitter.com' },
-      { icon: GrLinkedinOption, link: 'https://www.instagram.com' },
-      { icon: RiTwitterXLine, link: 'https://www.twitter.com' },
-      { icon: ImBehance, link: 'https://www.twitter.com' }
-    ],    
-      
+    ], 
   };
